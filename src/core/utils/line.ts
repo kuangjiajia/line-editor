@@ -60,7 +60,7 @@ export const drawLine = (type: LinePosition, arr: any, delta: number) => {
           if (target_vb >= source_vt) {
             draw(source_x, source_vb, target_vt - source_vb, type);
           } else {
-            draw(source_x, source_vt, source_vt - target_vb, type);
+            draw(source_x, target_vb, source_vt - target_vb, type);
           }
         }
       })
