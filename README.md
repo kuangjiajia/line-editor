@@ -14,7 +14,13 @@ yarn serve
 
 #### 打包
 
-> yarn build
+```shell
+ yarn build
+```
+
+
+
+
 
 
 
